@@ -1,0 +1,154 @@
+<!doctype html>
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dulce Capricho</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background: #fde9ec;
+      color: #4a2b2b;
+    }header {
+  background: linear-gradient(135deg, #f7b6c8, #f03865);
+  padding: 50px 20px;
+  text-align: center;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  font-size: 3.2rem;
+  color: white;
+  text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  margin-top: 40px;
+  text-align: center;
+  color: #d23b57;
+  font-weight: bold;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 25px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+ul li::before {
+  content: "🍓 ";
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 50px 0 20px;
+  color: #b4314b;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.cta {
+  text-align: center;
+  padding: 25px;
+  background: #ff4d6d;
+  color: white;
+  font-size: 1.8rem;
+  border-radius: 20px;
+  margin: 30px 0;
+  font-weight: bold;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
+
+.location {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #4a2b2b;
+  margin-bottom: 40px;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DULCE CAPRICHO</h1>
+  </header>  <div class="container"><h2 class="section-title">Toppings</h2>
+<div class="grid">
+  <div class="card">
+    <img src="https://i.imgur.com/lZgS8lG.jpeg" alt="Waffle con fresas">
+    <ul>
+      <li>Fresa</li>
+      <li>Banano</li>
+      <li>Manzana</li>
+      <li>Marshmallows</li>
+      <li>Chispitas</li>
+      <li>Galletas Oreo</li>
+      <li>Maní</li>
+    </ul>
+  </div>
+</div>
+
+<h2 class="section-title">Salsas</h2>
+<div class="grid">
+  <div class="card">
+    <img src="https://i.imgur.com/qM8Jy3t.jpeg" alt="Fuente de chocolate">
+    <ul>
+      <li>Chocolate</li>
+      <li>Mora</li>
+      <li>Arequipe</li>
+    </ul>
+  </div>
+</div>
+
+<p class="footer-text">“Porque un postre no se piensa… ¡se disfruta!”</p>
+
+<div class="cta">¡HAZ TU PEDIDO!</div>
+<p class="location">Estamos ubicados en la zona de banderas</p>
+
+  </div>
+</body>
+</html>
